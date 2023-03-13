@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 2000px;
+}

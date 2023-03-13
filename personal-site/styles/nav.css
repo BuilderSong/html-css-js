@@ -1,0 +1,148 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #eacda3, #d6ae7b);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.nav-active-onsroll {
+  /* background: rgba(224, 221, 221, 0.8); */
+  background: #e5eaf5;
+}
+
+.nav-left-section {
+  flex: 1;
+  height: 50px;
+}
+
+.loge-img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 23px;
+  cursor: pointer;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.loge-img:hover {
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+}
+
+.nav-middle-section {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 6px;
+  margin-right: 6px;
+  min-width: 350px;
+}
+
+.nav-right-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 200px;
+}
+
+.nav-middle-section p,
+.nav-right-section button,
+.nav-right-section p {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  color: #232043;
+  cursor: pointer;
+  transition: opacity .2s ease-in-out;
+}
+
+.nav-middle-section p:hover,
+.nav-right-section p:hover {
+  opacity: 0.4;
+}
+
+.nav-right-section p {
+  margin-right: 30px;
+}
+
+.nav-right-section button {
+  background-color: #815af0;
+  color: white;
+  font-weight: 400;
+  padding: 10px 16px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.nav-right-section button:hover {
+  box-shadow: 4px 4px 4px #815af0;
+  padding: 12px 18px;
+}
+
+.about-me-div {
+  position: relative;
+}
+
+.about-me-tool {
+  display: none;
+}
+
+.about-me-tool-hover {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-content: center;
+  position: absolute;
+  background-color: #FFFAFA;
+  left: -200px;
+  padding: 40px;
+}
+
+.about-me-tool-small-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+}
+
+.about-me-tool-small-section:hover {
+  background-color: #e5eaf5;
+  cursor: pointer;
+}
+
+.about-me-tool-small-section:active {
+  background-color: #163d90;
+  cursor: pointer;
+}
+
+.about-me-tool-small-section p {
+  margin-left: 8px;
+}
+
+
+.about-me-tool-small-section p:hover {
+  opacity: 1;
+}
+
+.right-arrow {
+  display: none;
+}
+
+.right-arrow-active {
+  display: inline-block;
+  margin-left: 10px;
+}

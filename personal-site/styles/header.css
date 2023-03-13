@@ -1,0 +1,6 @@
+header {
+  background: linear-gradient(to right, #eacda3, #d6ae7b);
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
